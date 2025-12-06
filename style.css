@@ -15,3 +15,16 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
+
+a {
+    color: #00FFFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #037bfc;
+}
+
+a:hover {
+    color: #037bfc;
+}
