@@ -1,8 +1,14 @@
-body {
-  background: #100;
-  color: #fff;
-  padding: 25px;
-  font-family: sans-serif;
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ff9bff;
 }
 
 .button {
@@ -12,23 +18,8 @@ body {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: box-shadow 0.2s ease, transform 0.1s ease;
 }
 
 .button:hover {
-  box-shadow: 0 0 12px #00ffff;
-  transform: translateY(-2px);
-}
-
-a {
-    color: #00FFFF;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #037bfc;
-}
-
-a:hover {
-    color: #037bfc;
+  box-shadow: 0 0 10px white;
 }
